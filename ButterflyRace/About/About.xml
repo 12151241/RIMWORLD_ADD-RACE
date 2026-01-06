@@ -7,7 +7,14 @@
     <li>1.6</li>
   </supportedVersions>
 
+  <modDependencies>
+    <li>
+      <packageId>erdelf.alienrace</packageId>
+      <displayName>Humanoid Alien Races</displayName>
+    </li>
+  </modDependencies>
+
   <description>
-    최후의 순간에 깨어나는 나비 종족을 추가합니다.
+    최후의 순간에 각성하는 나비 종족을 추가합니다.
   </description>
 </ModMetaData>

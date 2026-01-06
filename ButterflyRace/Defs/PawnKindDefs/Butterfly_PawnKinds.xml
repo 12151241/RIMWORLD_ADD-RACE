@@ -1,0 +1,8 @@
+<Defs>
+  <PawnKindDef>
+    <defName>Butterfly_Colonist</defName>
+    <label>butterfly colonist</label>
+    <race>Butterfly_Colonist</race>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+  </PawnKindDef>
+</Defs>
