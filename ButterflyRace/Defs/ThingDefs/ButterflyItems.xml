@@ -1,0 +1,19 @@
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Butterfly_Essence</defName>
+    <label>butterfly essence</label>
+    <description>나비가 남긴 잔재.</description>
+
+    <graphicData>
+      <texPath>Things/Item/ButterflyEssence</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+    <stackLimit>1</stackLimit>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+  </ThingDef>
+
+</Defs>

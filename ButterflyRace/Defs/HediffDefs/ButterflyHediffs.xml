@@ -1,0 +1,19 @@
+<Defs>
+
+  <HediffDef>
+    <defName>Butterfly_Awakened</defName>
+    <label>각성한 나비</label>
+    <description>최후의 빛을 발하는 상태.</description>
+
+    <hediffClass>HediffWithComps</hediffClass>
+
+    <comps>
+      <li Class="butterfly.HediffCompProperties_ButterflyTimer"/>
+    </comps>
+
+    <isBad>false</isBad>
+    <tendable>false</tendable>
+    <makesSickThought>false</makesSickThought>
+  </HediffDef>
+
+</Defs>
