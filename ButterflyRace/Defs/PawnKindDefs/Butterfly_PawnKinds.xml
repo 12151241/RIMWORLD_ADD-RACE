@@ -1,8 +1,24 @@
 <Defs>
+
   <PawnKindDef>
-    <defName>Butterfly_Colonist</defName>
+    <defName>ButterflyColonist</defName>
     <label>butterfly colonist</label>
+
     <race>Butterfly_Colonist</race>
+
+    <combatPower>100</combatPower>
+
     <defaultFactionType>PlayerColony</defaultFactionType>
+
+    <initialResistanceRange>
+      <min>0</min>
+      <max>0</max>
+    </initialResistanceRange>
+
+    <initialWillRange>
+      <min>0</min>
+      <max>0</max>
+    </initialWillRange>
   </PawnKindDef>
+
 </Defs>

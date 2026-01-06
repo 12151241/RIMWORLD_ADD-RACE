@@ -5,10 +5,13 @@
     <label>butterfly</label>
     <description>나비 종족</description>
 
+    <!-- 핵심 -->
+    <thingClass>Pawn</thingClass>
+
     <race>
-      <humanlike>true</humanlike>
       <intelligence>Humanlike</intelligence>
       <body>Human</body>
+
       <thinkTreeMain>Humanlike</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 
