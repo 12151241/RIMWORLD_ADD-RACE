@@ -1,18 +1,20 @@
 <Defs>
 
-  <AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="AlienRaceBase">
     <defName>Butterfly_Colonist</defName>
     <label>butterfly</label>
-    <description>나비 종족</description>
+    <description>최후의 순간에 각성하는 나비 종족</description>
 
-    <thingClass>Pawn</thingClass>
+    <thingClass>AlienRace.ThingWithComps</thingClass>
 
     <race>
+      <intelligence>Humanlike</intelligence>
       <body>Human</body>
       <thinkTreeMain>Humanlike</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
     </race>
 
+    <!-- 외형 아직 없음 → 비워두는 게 정답 -->
     <alienRace>
       <generalSettings />
     </alienRace>
