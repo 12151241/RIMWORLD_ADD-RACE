@@ -1,45 +1,20 @@
 <Defs>
 
-  <AlienRace.ThingDef_AlienRace ParentName="AlienRaceBase">
+  <AlienRace.ThingDef_AlienRace>
     <defName>Butterfly_Colonist</defName>
     <label>butterfly</label>
     <description>나비 종족</description>
 
-    <!-- 핵심 -->
     <thingClass>Pawn</thingClass>
 
     <race>
-      <intelligence>Humanlike</intelligence>
       <body>Human</body>
-
       <thinkTreeMain>Humanlike</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
-
-      <lifeStageAges>
-        <li>
-          <def>HumanlikeBaby</def>
-          <minAge>0</minAge>
-        </li>
-        <li>
-          <def>HumanlikeChild</def>
-          <minAge>3</minAge>
-        </li>
-        <li>
-          <def>HumanlikeAdult</def>
-          <minAge>13</minAge>
-        </li>
-      </lifeStageAges>
     </race>
 
     <alienRace>
-      <generalSettings>
-        <alienPartGenerator>
-          <alienbodytypes>
-            <li>Male</li>
-            <li>Female</li>
-          </alienbodytypes>
-        </alienPartGenerator>
-      </generalSettings>
+      <generalSettings />
     </alienRace>
 
   </AlienRace.ThingDef_AlienRace>
