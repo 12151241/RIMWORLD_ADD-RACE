@@ -1,31 +1,13 @@
 <Defs>
 
-  <PawnKindDef ParentName="Colonist">
+  <PawnKindDef>
     <defName>Butterfly_Colonist</defName>
     <label>butterfly</label>
 
-    <!-- 종족 -->
-    <race>Butterfly_Colonist</race>
-
-    <!-- 팩션 -->
+    <race>ButterflyRace</race>
     <defaultFactionType>PlayerColony</defaultFactionType>
 
-    <!-- 전투력 (임의) -->
     <combatPower>100</combatPower>
-
-    <!-- 필수 Needs 범위 (이게 중요!) -->
-    <initialResistanceRange>
-      <min>0</min>
-      <max>0</max>
-    </initialResistanceRange>
-
-    <initialWillRange>
-      <min>0</min>
-      <max>0</max>
-    </initialWillRange>
-
-    <!-- Animal 관련 참조 제거 -->
-    <canArriveManhunter>false</canArriveManhunter>
 
   </PawnKindDef>
 

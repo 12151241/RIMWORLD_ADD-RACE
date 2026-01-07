@@ -1,9 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Butterfly Race</name>
   <author>ZIKE</author>
   <packageId>zike.butterflyrace</packageId>
+  <description>
+나비 종족을 추가합니다.
+특정 조건에서 각성하는 고유 능력을 보유한 종족입니다.
+  </description>
 
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
+
 </ModMetaData>
